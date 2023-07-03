@@ -9,6 +9,8 @@ from django.contrib.auth.forms import UserCreationForm
 from .models import Room, Topic, Message
 from .forms import RoomForm, UserForm
 
+# //how to display rooms, time slots and lecture info as table in django views
+
 # rooms = [
 #     {'id':1 ,'name' : 'Lets learn python!'},
 #     {'id':2 ,'name' : 'Design with me'},
